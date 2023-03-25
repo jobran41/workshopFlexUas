@@ -1,0 +1,123 @@
+
+body{
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: darkgray;
+    padding: 10px;
+    background: red;
+    /* width: 50%; */
+}
+
+header {
+    width: 100%;
+    /* background: red; */
+    /* height: fit-content; */
+}
+
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+ul {
+    list-style: none;
+    text-transform: none;
+}
+
+
+aside ul {
+    /* margin-top: 60px; */
+    margin: 64px 0;
+    padding: 0;
+}
+
+aside ul li {
+    border: 1px solid darkcyan;
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+ nav ul li {
+    display: inline-block;
+}
+
+footer ul li a,nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+aside ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+aside ul li a .word {
+    float: left;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.word {}
+
+aside ul li a .arraw {
+    float: right;
+}
+
+aside ul li span {
+    color: white;
+    float: right;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+.content aside {
+    float: right;
+    width: 30%;
+}
+
+.content section {
+    float: left;
+    width: 70%;
+}
+
+section .card {
+    padding: 10px;
+}
+
+.card .p2 {
+    height: calc(100vh - 250px);
+    width: 48%;
+    float: right;
+    background-color: aqua;
+}
+
+section .card .p1 {
+    height: calc(100vh - 250px);
+    width: 48%;
+    float: left;
+    background-color: azure;
+}
+
+
+footer {
+    list-style: none;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+}
